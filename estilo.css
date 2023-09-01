@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+#logo {
+    width: 5px;
+    position: absolute;
+    float: left;
+    
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+li {
+    float: left;
+    padding: 10px;
+}
+li:hover {
+    background-color: blue;
+}
+
+#fundo {
+    background: url("campo.jpg");
+    height: 100%;
+    text-align: center;
+
+}
+#açao {
+    background-color:aliceblue;
+
+}
+#titulo {
+    color:blue;
+    padding-top: 30%;
+    font-size: 50px;
+}
+#sub {
+    color:blue;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    font-size: 30px;
+
+}
+
+#açao {
+
+    border: 1px blue solid;
+    padding: 1px 1px 1px 1px;
+
+}
+
+#dpcs {
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#diretoria {
+    background-color: brown;
+    color:aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+#fim {
+    background-color: blanchedalmond;
+    color:blue;
+    padding: 20px;
+    text-align: center;
+    
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+.ordem {
+    width: 20%;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+@media all and (max-width: 768px) {
+
+}
+#descarte {
+    padding: 20px;
+    text-align: center;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#lado {
+    padding: 5px;
+}
+
+
+
+
+
